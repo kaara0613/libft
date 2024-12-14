@@ -15,6 +15,9 @@
 
 # include <unistd.h>
 # include <stdlib.h>
+# include <stdbool.h>
+
+# define BUFFER_SIZE 42
 
 int		ft_tolower(int c);
 int		ft_toupper(int c);
@@ -50,5 +53,7 @@ char	*ft_strrchr(const char *s, int c);
 char	*ft_strtrim(const char *s1, const char *set);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	**ft_split(const char *s, char c);
+size_t	free_and_reset(char **buffer);
+char	*get_next_line(int fd);
 
 #endif
