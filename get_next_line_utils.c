@@ -6,7 +6,7 @@
 /*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 11:01:02 by kaara             #+#    #+#             */
-/*   Updated: 2024/12/06 21:49:28 by kaara            ###   ########.fr       */
+/*   Updated: 2024/12/16 15:30:49 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,4 @@ size_t	free_and_reset(char **buffer)
 	*buffer = NULL;
 	return (0);
 }
+
