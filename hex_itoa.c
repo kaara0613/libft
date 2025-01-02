@@ -1,29 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   zero_pad_itoa.c                                    :+:      :+:    :+:   */
+/*   hex_itoa.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/02 15:40:14 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/02 18:49:16 by kaara            ###   ########.fr       */
+/*   Created: 2025/01/02 18:50:42 by kaara             #+#    #+#             */
+/*   Updated: 2025/01/02 19:00:53 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*zero_pad_itoa(int n, ssize_t size)
+char *hex_itoa(unsigned int n)
 {
-	ssize_t	nums_zero;
-	char	*n_str;
-	char	*result;
+	char    *result;
 
-	nums_zero = size - intlen(n);
-	result = calloc(size + 1, sizeof(char));
-	if (result == NULL)
-		return (NULL);
-	ft_itoa(n_str);
-	ft_strlcpy(result + nums_zero, n_str, size + 1);
-	free(n_str);
+
+
 	return (result);
+}
+
+ssize_t	hex_intlen(unsigned int n)
+{
+	ssize_t	len;
+
+	len = 0;
+	while (n != 0)
+	{
+		n /= 16;
+		len++;
+	}
+	return (len);
 }
