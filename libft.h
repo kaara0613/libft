@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 18:25:11 by kaara             #+#    #+#             */
-/*   Updated: 2024/06/26 17:19:56 by kaara            ###   ########.fr       */
+/*   Updated: 2025/01/02 14:32:37 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,5 +55,7 @@ char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	**ft_split(const char *s, char c);
 size_t	free_and_reset(char **buffer);
 char	*get_next_line(int fd);
+ssize_t	intlen(int src);
+char	*int_array_to_string(int *arr);
 
 #endif
