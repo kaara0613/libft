@@ -1,35 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   hex_itoa.c                                         :+:      :+:    :+:   */
+/*   hex_intlen.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/02 18:50:42 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/03 06:51:25 by kaara            ###   ########.fr       */
+/*   Created: 2025/01/03 06:49:50 by kaara             #+#    #+#             */
+/*   Updated: 2025/01/03 06:50:49 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*hex_itoa(unsigned int n)
+ssize_t	hex_intlen(unsigned int n)
 {
-	ssize_t		len;
-	char		*result;
-	const char	chars[] = "0123456789ABCDEF";
+	ssize_t	len;
 
-	len = hex_intlen(n);
-	result = (char *)malloc(sizeof(char) * (len + 3));
-	if (result == NULL)
-		return (NULL);
-	result[len] = '\0';
-	while (n >= 0)
+	len = 0;
+	while (n != 0)
 	{
-		result[len] = chars[n % 16];
 		n /= 16;
-		len--;
+		len++;
 	}
-	result[0] = '0';
-	result[1] = 'x';
-	return (result);
+	return (len);
 }
