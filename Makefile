@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    makefile                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+         #
+#    By: kaara <kaara@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 09:00:03 by kaara             #+#    #+#              #
-#    Updated: 2024/06/25 18:15:24 by kaara            ###   ########.fr        #
+#    Updated: 2025/01/03 18:50:31 by kaara            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,9 @@ SRCS = ft_atoi.c ft_memchr.c ft_split.c ft_strncmp.c \
 	ft_isascii.c ft_putchar_fd.c ft_strlcat.c ft_tolower.c \
 	ft_isdigit.c ft_putendl_fd.c ft_strlcpy.c ft_toupper.c \
 	ft_isprint.c ft_putnbr_fd.c ft_strlen.c ft_itoa.c ft_putstr_fd.c ft_strmapi.c \
-	get_next_line.c get_next_line_utils.c
+	get_next_line.c get_next_line_utils.c \
+	a_hex_itoa.c a_int_array_to_string.c \
+	a_intlen.c a_strjoin_update.c a_zero_pad_itoa.c
 
 OBJS = ${SRCS:.c=.o}
 
