@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
+/*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 18:25:11 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/02 16:05:12 by kaara            ###   ########.fr       */
+/*   Updated: 2025/01/03 06:49:13 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,7 @@ char	*get_next_line(int fd);
 ssize_t	intlen(int src);
 char	*int_array_to_string(int *arr);
 char	*zero_pad_itoa(int n, ssize_t size);
+ssize_t	hex_intlen(unsigned int n);
+char	*hex_itoa(unsigned int n);
 
 #endif
