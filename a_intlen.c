@@ -1,34 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   hex_itoa.c                                         :+:      :+:    :+:   */
+/*   a_intlen.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/02 18:50:42 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/02 19:00:53 by kaara            ###   ########.fr       */
+/*   Created: 2025/01/02 14:17:30 by kaara             #+#    #+#             */
+/*   Updated: 2025/01/03 17:52:11 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *hex_itoa(unsigned int n)
+ssize_t	intlen(int src)
 {
-	char    *result;
-
-
-
-	return (result);
-}
-
-ssize_t	hex_intlen(unsigned int n)
-{
-	ssize_t	len;
+	ssize_t			len;
+	unsigned int	u_src;
 
 	len = 0;
-	while (n != 0)
+	if (src < 0)
 	{
-		n /= 16;
+		u_src = (unsigned int)src;
+		len++;
+	}
+	while (src != 0)
+	{
+		src /= 10;
 		len++;
 	}
 	return (len);

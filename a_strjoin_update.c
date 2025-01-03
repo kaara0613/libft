@@ -1,29 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   zero_pad_itoa.c                                    :+:      :+:    :+:   */
+/*   a_strjoin_update.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/02 15:40:14 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/02 18:49:16 by kaara            ###   ########.fr       */
+/*   Created: 2025/01/03 17:52:16 by kaara             #+#    #+#             */
+/*   Updated: 2025/01/03 18:14:19 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*zero_pad_itoa(int n, ssize_t size)
+char	*strjoin_update(char *dest, const char *src)
 {
-	ssize_t	nums_zero;
-	char	*n_str;
-	char	*result;
+	char		*tmp;
+	ssize_t		cpy_size;
 
-	nums_zero = size - intlen(n);
-	result = calloc(size + 1, sizeof(char));
-	if (result == NULL)
+	tmp = ft_strjoin(dest, src);
+	if (tmp == NULL)
 		return (NULL);
-	ft_itoa(n_str);
-	ft_strlcpy(result + nums_zero, n_str, size + 1);
-	free(n_str);
-	return (result);
+	free(dest);
+	dest = NULL;
+	cpy_size = ft_strlen(dest) + ft_strlen(src) + 1;
+	dest = (char *)malloc(sizeof(char) * cpy_size);
+	if (dest == NULL)
+		return (NULL);
+	ft_memcpy(dest, src, cpy_size);
+	free(tmp);
+	return (dest);
 }
