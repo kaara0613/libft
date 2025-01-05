@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   a_int_array_to_string.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
+/*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 14:25:58 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/03 17:52:07 by kaara            ###   ########.fr       */
+/*   Updated: 2025/01/05 09:51:45 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*int_array_to_string(int *arr)
 		return (NULL);
 	while (arr_i <= arr[0])
 	{
-		ft_memcpy(line + line_i, ft_sitoa(arr[arr_i]),
+		ft_memcpy(line + line_i, ft_itoa(arr[arr_i]),
 			sizeof(char) * intlen(arr[arr_i]));
 		line_i += intlen(arr[arr_i]);
 		if (arr_i != arr[0])

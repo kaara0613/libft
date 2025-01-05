@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   a_zero_pad_itoa.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
+/*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 15:40:14 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/03 17:52:20 by kaara            ###   ########.fr       */
+/*   Updated: 2025/01/05 10:35:32 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*zero_pad_itoa(int n, ssize_t size)
 	result = calloc(size + 1, sizeof(char));
 	if (result == NULL)
 		return (NULL);
-	ft_itoa(n_str);
+	n_str = ft_itoa(n);
 	ft_strlcpy(result + nums_zero, n_str, size + 1);
 	free(n_str);
 	return (result);

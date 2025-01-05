@@ -1,26 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   hex_intlen.c                                       :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/03 06:49:50 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/03 06:50:49 by kaara            ###   ########.fr       */
+/*   Created: 2025/01/05 10:30:52 by kaara             #+#    #+#             */
+/*   Updated: 2025/01/05 10:57:04 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <limits.h>
+#include <stdio.h>
 
-ssize_t	hex_intlen(unsigned int n)
+int	main(void)
 {
-	ssize_t	len;
+int n[5] = {1, 2, 3, 4, 5};
 
-	len = 0;
-	while (n != 0)
-	{
-		n /= 16;
-		len++;
-	}
-	return (len);
+    printf("%ld\n", intlen(INT_MAX));
+    printf("%ld\n", hex_intlen(0xffffff));
+    printf("%s\n", hex_itoa(0xffffff));
+    printf("%s\n", int_array_to_string(n));
+    return (0);
 }
