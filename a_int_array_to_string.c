@@ -6,11 +6,12 @@
 /*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 14:25:58 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/05 09:51:45 by kaara            ###   ########.fr       */
+/*   Updated: 2025/01/05 14:33:39 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include "stdio.h"
 
 static ssize_t	arr_spc_len(int *arr);
 
