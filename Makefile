@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+         #
+#    By: kaara <kaara@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 09:00:03 by kaara             #+#    #+#              #
-#    Updated: 2025/01/06 02:29:57 by kaara            ###   ########.fr        #
+#    Updated: 2025/01/06 13:18:58 by kaara            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ SRCS = ft_atoi.c ft_memchr.c ft_split.c ft_strncmp.c \
 	ft_isprint.c ft_putnbr_fd.c ft_strlen.c ft_itoa.c ft_putstr_fd.c ft_strmapi.c \
 	get_next_line.c get_next_line_utils.c \
 	a_hex_itoa.c a_hex_intlen.c \
-	a_intlen.c a_strjoin_update.c a_zero_pad_itoa.c \
+	a_intlen.c a_zero_pad_itoa.c \
 	a_int_array_to_string.c 
 
 OBJS = ${SRCS:.c=.o}

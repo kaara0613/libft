@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   a_int_array_to_string.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 14:25:58 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/05 14:33:39 by kaara            ###   ########.fr       */
+/*   Updated: 2025/01/06 18:31:41 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,28 +18,29 @@ static ssize_t	arr_spc_len(int *arr);
 char	*int_array_to_string(int *arr)
 {
 	ssize_t	arr_i;
-	ssize_t	line_i;
+	char	*tmp;
+	char	*line_tmp;
 	char	*line;
 
 	arr_i = 1;
-	line_i = 0;
-	line = (char *)malloc(sizeof(char) * arr_spc_len(arr) + 1);
+	tmp = NULL;
+	line = (char *)malloc(sizeof(char) * (arr_spc_len(arr) + 1));
 	if (line == NULL)
 		return (NULL);
+	line_tmp = line;
 	while (arr_i <= arr[0])
 	{
-		ft_memcpy(line + line_i, ft_itoa(arr[arr_i]),
-			sizeof(char) * intlen(arr[arr_i]));
-		line_i += intlen(arr[arr_i]);
-		if (arr_i != arr[0])
-		{
-			line_i++;
-			line[line_i] = ' ';
-		}
-		else
-			line[line_i + 1] = '\0';
+		tmp = ft_itoa(arr[arr_i]);
+		if (tmp == NULL)
+			return (free(line), free(tmp), NULL);
+		ft_memcpy(line, tmp, sizeof(char) * ft_strlen(tmp));
+		line += ft_strlen(tmp);
+		*(line++) = ' ';
+		arr_i++;
+		free(tmp);
 	}
-	return (line);
+	*(--line) = '\0';
+	return (line_tmp);
 }
 
 static ssize_t	arr_spc_len(int *arr)
@@ -48,6 +49,7 @@ static ssize_t	arr_spc_len(int *arr)
 	ssize_t	string_len;
 
 	arr_i = 1;
+	string_len = 0;
 	while (arr_i <= arr[0])
 	{
 		string_len += intlen(arr[arr_i]);
