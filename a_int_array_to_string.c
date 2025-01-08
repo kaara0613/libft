@@ -6,7 +6,7 @@
 /*   By: kaara <kaara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 14:25:58 by kaara             #+#    #+#             */
-/*   Updated: 2025/01/08 15:34:00 by kaara            ###   ########.fr       */
+/*   Updated: 2025/01/08 19:02:48 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*int_array_to_string(int *arr)
 
 	arr_i = 1;
 	tmp = NULL;
-	line = (char *)malloc(sizeof(char) * (arr_spc_len(arr) + 1));
+	line = (char *)malloc(sizeof(char) * (arr_spc_len(arr)));
 	if (line == NULL)
 		return (NULL);
 	line_tmp = line;
@@ -35,7 +35,8 @@ char	*int_array_to_string(int *arr)
 			return (free(line), free(tmp), NULL);
 		ft_memcpy(line, tmp, sizeof(char) * ft_strlen(tmp));
 		line += ft_strlen(tmp);
-		*(line++) = ' ';
+		*line = ' ';
+		line++;
 		arr_i++;
 		free(tmp);
 	}
@@ -55,6 +56,6 @@ static ssize_t	arr_spc_len(int *arr)
 		string_len += intlen(arr[arr_i]);
 		arr_i++;
 	}
-	string_len += arr[0] - 1;
+	string_len += arr[0];
 	return (string_len);
 }
