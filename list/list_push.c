@@ -1,0 +1,33 @@
+#include "../libft.h"
+
+t_list  *allocation_list();
+
+void    list_push(t_list **list, int n)
+{
+	t_list  *head;
+
+	head = *list;
+	if (*list == NULL)
+	{
+		*list = allocation_list();
+		(*list)->n = n;
+		return ;
+	}
+	else
+	{
+		while (head->next != NULL)
+			head = head->next;
+		head->next = allocation_list();
+		head->next->n = n;
+	}
+}
+
+t_list  *allocation_list()
+{
+	t_list  *list;
+
+	list = (t_list *)malloc(sizeof(t_list));
+	if (list == NULL)
+		return (NULL);
+	return (list);
+}

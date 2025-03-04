@@ -16,6 +16,14 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+typedef struct s_list t_list;
+
+struct s_list
+{
+    t_list   *next;
+    int     n;
+} ;
+
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 int		ft_isalnum(int c);
@@ -50,5 +58,9 @@ char	*ft_strrchr(const char *s, int c);
 char	*ft_strtrim(const char *s1, const char *set);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	**ft_split(const char *s, char c);
+
+//list
+void    list_push(t_list **list, int n);
+void    list_print(t_list *list);
 
 #endif
