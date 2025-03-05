@@ -29,5 +29,6 @@ t_list  *allocation_list()
 	list = (t_list *)malloc(sizeof(t_list));
 	if (list == NULL)
 		return (NULL);
+	list->next = NULL;
 	return (list);
 }

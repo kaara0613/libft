@@ -14,5 +14,6 @@ int main(void)
     list_push(&list, 10000000);
     list_push(&list, 100000000);
     list_print(list);
+    list_clear(list);
     return (0);
 }

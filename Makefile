@@ -48,11 +48,12 @@ SRCS = ft_atoi.c\
 	ft_strmapi.c\
 	list/list_push.c\
 	list/list_print.c\
+	list/list_clear.c\
 
 OBJS = ${SRCS:.c=.o}
 
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -g -Wall -Wextra -Werror
 
 AR = ar rcs
 RM = rm -f
@@ -64,6 +65,9 @@ ${NAME}: ${OBJS}
 
 %.o: %.c
 	${CC} ${CFLAGS} -c $< -o $@
+
+test:
+	${NAME} ${CC} ${CFLAGS} 
 
 clean:
 	${RM} ${OBJS}

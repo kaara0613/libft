@@ -16,12 +16,21 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+typedef union s_element t_element;
+
+union s_element {
+    int		i;
+	int		*arr;
+    char	c;
+    char	*str;
+} ;
+
 typedef struct s_list t_list;
 
 struct s_list
 {
-    t_list   *next;
-    int     n;
+    t_list		*next;
+    t_element 	element;
 } ;
 
 int		ft_tolower(int c);
@@ -62,5 +71,6 @@ char	**ft_split(const char *s, char c);
 //list
 void    list_push(t_list **list, int n);
 void    list_print(t_list *list);
+void	list_clear(t_list *list);
 
 #endif
