@@ -13,7 +13,7 @@ void    list_print(t_list *list)
     while (head->next != NULL)
     {
         printf("%d :", i);
-        printf("%d\n", head->n);
+        printf("%d\n", head->element.i);
         head = head->next;
     }
 }

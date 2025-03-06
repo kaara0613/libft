@@ -8,6 +8,9 @@ void	list_clear(t_list *list)
     	return ;
     head = list;
     list_clear(head->next);
-    if ()
+    if (head->element.str != NULL)
+        free(head->element.str);
+    else if (head->element.arr != NULL)
+        free(head->element.arr);
     free(head);
 }

@@ -2,7 +2,7 @@
 
 t_list  *allocation_list();
 
-void    list_push(t_list **list, int n)
+void    list_int_push(t_list **list, int n)
 {
 	t_list  *head;
 
@@ -10,7 +10,7 @@ void    list_push(t_list **list, int n)
 	if (*list == NULL)
 	{
 		*list = allocation_list();
-		(*list)->n = n;
+		(*list)->element.i = n;
 		return ;
 	}
 	else
@@ -18,7 +18,7 @@ void    list_push(t_list **list, int n)
 		while (head->next != NULL)
 			head = head->next;
 		head->next = allocation_list();
-		head->next->n = n;
+		head->next->element.i = n;
 	}
 }
 
