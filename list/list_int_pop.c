@@ -1,4 +1,5 @@
-#include "../libft.h"
+#include "../list.h"
+#include <stdlib.h>
 
 int list_int_pop(t_list **list)
 {

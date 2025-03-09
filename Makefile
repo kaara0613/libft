@@ -12,43 +12,55 @@
 
 NAME = libft.a
 
-SRCS = ft_atoi.c\
-	ft_memchr.c\
-	ft_split.c\
-	ft_strncmp.c \
-	ft_bzero.c\
-	ft_memcmp.c\
-	ft_strchr.c\
-	ft_strnstr.c\
-	ft_calloc.c\
-	ft_memcpy.c\
-	ft_strdup.c\
-	ft_strrchr.c\
-	ft_isalnum.c\
-	ft_memmove.c\
-	ft_striteri.c\
-	ft_strtrim.c\
-	ft_isalpha.c\
-	ft_memset.c\
-	ft_strjoin.c\
-	ft_substr.c\
-	ft_isascii.c\
-	ft_putchar_fd.c\
-	ft_strlcat.c\
-	ft_tolower.c\
-	ft_isdigit.c\
-	ft_putendl_fd.c\
-	ft_strlcpy.c\
-	ft_toupper.c\
-	ft_isprint.c\
-	ft_putnbr_fd.c\
-	ft_strlen.c\
-	ft_itoa.c\
-	ft_putstr_fd.c\
-	ft_strmapi.c\
+FT_LIBFT_SRCS = \
+	ft_libft/ft_atoi.c\
+	ft_libft/ft_memchr.c\
+	ft_libft/ft_split.c\
+	ft_libft/ft_strncmp.c \
+	ft_libft/ft_bzero.c\
+	ft_libft/ft_memcmp.c\
+	ft_libft/ft_strchr.c\
+	ft_libft/ft_strnstr.c\
+	ft_libft/ft_calloc.c\
+	ft_libft/ft_memcpy.c\
+	ft_libft/ft_strdup.c\
+	ft_libft/ft_strrchr.c\
+	ft_libft/ft_isalnum.c\
+	ft_libft/ft_memmove.c\
+	ft_libft/ft_striteri.c\
+	ft_libft/ft_strtrim.c\
+	ft_libft/ft_isalpha.c\
+	ft_libft/ft_memset.c\
+	ft_libft/ft_strjoin.c\
+	ft_libft/ft_substr.c\
+	ft_libft/ft_isascii.c\
+	ft_libft/ft_putchar_fd.c\
+	ft_libft/ft_strlcat.c\
+	ft_libft/ft_tolower.c\
+	ft_libft/ft_isdigit.c\
+	ft_libft/ft_putendl_fd.c\
+	ft_libft/ft_strlcpy.c\
+	ft_libft/ft_toupper.c\
+	ft_libft/ft_isprint.c\
+	ft_libft/ft_putnbr_fd.c\
+	ft_libft/ft_strlen.c\
+	ft_libft/ft_itoa.c\
+	ft_libft/ft_putstr_fd.c\
+	ft_libft/ft_strmapi.c\
+
+LIST_SRC = \
 	list/list_push.c\
 	list/list_print.c\
 	list/list_clear.c\
+
+FT_PRINTF_SRC = \
+	ft_printf/hendle_format.c\
+	ft_printf/hex/hendle_format.c\
+	ft_printf/libftprintf.c\
+
+GNL_SRC = \
+	gnl/get_next_line.c\
+	gnl/get_next_line_utils.c\
 
 OBJS = ${SRCS:.c=.o}
 
