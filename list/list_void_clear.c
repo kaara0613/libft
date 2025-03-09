@@ -1,4 +1,4 @@
-#include "../list.h"
+#include "list.h"
 #include <stdlib.h>
 
 void	list_clear(t_list *list)

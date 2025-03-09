@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "ft_libft.h"
 
 static int	check_str(const char find, const char *set);
 

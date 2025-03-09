@@ -1,4 +1,4 @@
-#include "../list.h"
+#include "list.h"
 #include <stdio.h>
 
 void    list_print(t_list *list)

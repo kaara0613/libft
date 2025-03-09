@@ -49,23 +49,30 @@ FT_LIBFT_SRCS = \
 	ft_libft/ft_strmapi.c\
 
 LIST_SRC = \
-	list/list_push.c\
+	list/list_int_pop.c\
+	list/list_int_push.c\
 	list/list_print.c\
-	list/list_clear.c\
+	list/list_void_clear.c\
 
 FT_PRINTF_SRC = \
-	ft_printf/hendle_format.c\
-	ft_printf/hex/hendle_format.c\
+	ft_printf/handle_format.c\
+	ft_printf/hex_handle_format2.c\
 	ft_printf/libftprintf.c\
 
 GNL_SRC = \
 	gnl/get_next_line.c\
 	gnl/get_next_line_utils.c\
 
+SRCS = \
+	$(FT_LIBFT_SRCS)\
+	$(LIST_SRC)\
+	$(FT_PRINTF_SRC)\
+	$(GNL_SRC)\
+
 OBJS = ${SRCS:.c=.o}
 
 CC = cc
-CFLAGS = -g -Wall -Wextra -Werror
+CFLAGS = -g -Iinclude -Wall -Wextra -Werror
 
 AR = ar rcs
 RM = rm -f

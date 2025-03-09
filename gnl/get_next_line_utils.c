@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../get_next_line.h"
+#include "get_next_line.h"
 #include <stdlib.h>
 
 size_t	free_and_reset(char **buffer)
