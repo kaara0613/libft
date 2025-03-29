@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: kaara <kaara@student.42.jp>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/21 14:19:55 by kaara             #+#    #+#             */
-/*   Updated: 2024/06/25 20:02:56 by kaara            ###   ########.fr       */
+/*   Updated: 2025/03/23 13:33:06 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "ft_libft.h"
+#include <stdlib.h>
 
 char	*ft_strrchr(const char *s, int c)
 {

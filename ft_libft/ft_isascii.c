@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "ft_libft.h"
 
 int	ft_isascii(int c)
 {

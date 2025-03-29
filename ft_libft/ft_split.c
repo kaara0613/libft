@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "ft_libft.h"
 
 static int	count_elements(const char *s, char c);
 static char	*cpy_result(const char *s, char c);

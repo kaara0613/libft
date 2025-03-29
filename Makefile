@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    makefile                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: kaara <kaara@student.42tokyo.jp>           +#+  +:+       +#+         #
+#    By: kaara <kaara@student.42.jp>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 09:00:03 by kaara             #+#    #+#              #
-#    Updated: 2024/06/25 18:15:24 by kaara            ###   ########.fr        #
+#    Updated: 2025/03/30 02:56:53 by kaara            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,23 +49,33 @@ FT_LIBFT_SRCS = \
 	ft_libft/ft_strmapi.c\
 
 LIST_SRC = \
-	list/list_push.c\
-	list/list_print.c\
-	list/list_clear.c\
+	list/list_int_pop.c\
+	list/list_int_push.c\
+	list/list_int_print.c\
+	list/list_void_clear.c\
 
 FT_PRINTF_SRC = \
-	ft_printf/hendle_format.c\
-	ft_printf/hex/hendle_format.c\
+	ft_printf/handle_format.c\
+	ft_printf/hex_handle_format2.c\
 	ft_printf/libftprintf.c\
 
 GNL_SRC = \
 	gnl/get_next_line.c\
 	gnl/get_next_line_utils.c\
 
+SRCS = \
+	${FT_LIBFT_SRCS}\
+	${LIST_SRC}\
+	${FT_PRINTF_SRC}\
+	${GNL_SRC}\
+
+TESTFILE = 
+
 OBJS = ${SRCS:.c=.o}
 
 CC = cc
 CFLAGS = -g -Wall -Wextra -Werror
+VALGRIND = valgrind --leak-check=full -q
 
 AR = ar rcs
 RM = rm -f
@@ -76,10 +86,10 @@ ${NAME}: ${OBJS}
 	${AR} ${NAME} ${OBJS}
 
 %.o: %.c
-	${CC} ${CFLAGS} -c $< -o $@
+	${CC} -I include ${CFLAGS} -c $< -o $@
 
-test:
-	${NAME} ${CC} ${CFLAGS} 
+test: ${NAME}
+	${CC} ${CFLAGS} -I include $(TESTFILE) libft.a -o test_exec && ${VALGRIND} ./test_exec
 
 clean:
 	${RM} ${OBJS}
