@@ -6,10 +6,11 @@
 /*   By: kaara <kaara@student.42.jp>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 02:45:25 by kaara             #+#    #+#             */
-/*   Updated: 2025/03/23 13:23:35 by kaara            ###   ########.fr       */
+/*   Updated: 2025/03/30 15:58:11 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_libft.h"
 #include "ft_libft.h"
 #include <stdlib.h>
 

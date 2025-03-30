@@ -6,7 +6,7 @@
 #    By: kaara <kaara@student.42.jp>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 09:00:03 by kaara             #+#    #+#              #
-#    Updated: 2025/03/30 02:56:53 by kaara            ###   ########.fr        #
+#    Updated: 2025/03/30 15:59:22 by kaara            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,7 @@ FT_LIBFT_SRCS = \
 LIST_SRC = \
 	list/list_int_pop.c\
 	list/list_int_push.c\
-	list/list_int_print.c\
+	list/list_print.c\
 	list/list_void_clear.c\
 
 FT_PRINTF_SRC = \
@@ -64,18 +64,15 @@ GNL_SRC = \
 	gnl/get_next_line_utils.c\
 
 SRCS = \
-	${FT_LIBFT_SRCS}\
-	${LIST_SRC}\
-	${FT_PRINTF_SRC}\
-	${GNL_SRC}\
-
-TESTFILE = 
+	$(FT_LIBFT_SRCS)\
+	$(LIST_SRC)\
+	$(FT_PRINTF_SRC)\
+	$(GNL_SRC)\
 
 OBJS = ${SRCS:.c=.o}
 
 CC = cc
-CFLAGS = -g -Wall -Wextra -Werror
-VALGRIND = valgrind --leak-check=full -q
+CFLAGS = -g -Iinclude -Wall -Wextra -Werror
 
 AR = ar rcs
 RM = rm -f

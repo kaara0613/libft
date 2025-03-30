@@ -20,8 +20,8 @@ struct s_list
 
 //list
 int     list_int_pop(t_list **list);
-void    list_int_push(t_list **list, int n);
-void    list_int_print(t_list *list);
-void	list_void_clear(t_list *list);
+void    list_push(t_list **list, int n);
+void    list_print(t_list *list);
+void	list_clear(t_list *list);
 
 #endif
