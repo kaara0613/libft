@@ -1,6 +1,6 @@
 #include <list.h>
 
-int list_int_pop_back(t_list **list, int n)
+int list_int_pop_at(t_list **list, int n)
 {
     int idx;
     int result;

@@ -6,7 +6,7 @@
 #    By: kaara <kaara@student.42.jp>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 09:00:03 by kaara             #+#    #+#              #
-#    Updated: 2025/03/30 15:59:22 by kaara            ###   ########.fr        #
+#    Updated: 2025/03/30 16:39:33 by kaara            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,9 +49,14 @@ FT_LIBFT_SRCS = \
 	ft_libft/ft_strmapi.c\
 
 LIST_SRC = \
+	list/list_int_insert_at.c\
+	list/list_int_pop_at.c\
+	list/list_int_pop_back.c\
 	list/list_int_pop.c\
+	list/list_int_print.c\
 	list/list_int_push.c\
-	list/list_print.c\
+	list/list_int_rev_rotate.c\
+	list/list_int_rotate.c\
 	list/list_void_clear.c\
 
 FT_PRINTF_SRC = \
