@@ -27,5 +27,7 @@ void    list_int_print(t_list *list);
 void    list_int_push(t_list **list, int n);
 void    list_int_rotate(t_list **list);
 void	list_void_clear(t_list *list);
+t_list  *list_int_clone(t_list *list);
+t_list  *list_int_sort(t_list *list);
 
 #endif
