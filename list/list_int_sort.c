@@ -32,6 +32,7 @@ void    swap(t_list *list)
                 list_int_insert_at(&list, list_int_pop_at(&list, idx), idx + 1);
                 swaped = true;
             }
+            head = head->next;
         }
         if (swaped == true)
             break ;

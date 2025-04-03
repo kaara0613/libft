@@ -6,7 +6,7 @@
 #    By: kaara <kaara@student.42.jp>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 09:00:03 by kaara             #+#    #+#              #
-#    Updated: 2025/03/30 16:39:33 by kaara            ###   ########.fr        #
+#    Updated: 2025/04/03 15:14:45 by kaara            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,6 +57,8 @@ LIST_SRC = \
 	list/list_int_push.c\
 	list/list_int_rev_rotate.c\
 	list/list_int_rotate.c\
+	list/list_int_clone.c\
+	list/list_int_sort.c\
 	list/list_void_clear.c\
 
 FT_PRINTF_SRC = \
@@ -74,10 +76,13 @@ SRCS = \
 	$(FT_PRINTF_SRC)\
 	$(GNL_SRC)\
 
+TEST_FILE = 
+
 OBJS = ${SRCS:.c=.o}
 
 CC = cc
 CFLAGS = -g -Iinclude -Wall -Wextra -Werror
+VALGRIND = valgrind -q --leak-check=full
 
 AR = ar rcs
 RM = rm -f
@@ -91,7 +96,7 @@ ${NAME}: ${OBJS}
 	${CC} -I include ${CFLAGS} -c $< -o $@
 
 test: ${NAME}
-	${CC} ${CFLAGS} -I include $(TESTFILE) libft.a -o test_exec && ${VALGRIND} ./test_exec
+	${CC} ${CFLAGS} -I include $(TEST_FILE) libft.a -o test_exec && ${VALGRIND} ./test_exec
 
 clean:
 	${RM} ${OBJS}
