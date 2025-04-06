@@ -9,15 +9,21 @@ void    list_int_insert_at(t_list **list, int n, int i)
 
     idx = 0;
     head = *list;
-    while (idx <= i)
+    tmp = NULL;
+    list_int_push(&tmp, n);
+    if (i == 0)
     {
-        head = head->next;
-        idx++;
+        tmp->next = *list;
+        *list = tmp;
     }
-    tmp = head->next;
-    head->next = NULL;
-    list_int_push(list, n);
-    while (head->next != NULL)
-        head = head->next;
-    head->next = tmp;
+    else
+    {
+        while (head->next != NULL && idx < i - 1)
+        {
+            head = head->next;
+            idx++;
+        }
+        tmp->next = head->next;
+        head->next = tmp;
+    }
 }

@@ -8,8 +8,9 @@ int list_int_pop(t_list **list)
 	int     result;
 	
 	head = *list;
-	*list = (*list)->next;
+	*list = head->next;
 	result = head->element.i;
+	head->next = NULL;
 	free(head);
 	return (result);
 }

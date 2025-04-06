@@ -5,6 +5,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -13,9 +14,9 @@
       "ft_libft/ft_atoi.o",
       "ft_libft/ft_atoi.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_atoi.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_atoi.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_atoi.c",
+    "output": "/home/lia/libft/ft_libft/ft_atoi.o"
   },
   {
     "arguments": [
@@ -23,6 +24,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -31,9 +33,9 @@
       "ft_libft/ft_memchr.o",
       "ft_libft/ft_memchr.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_memchr.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_memchr.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_memchr.c",
+    "output": "/home/lia/libft/ft_libft/ft_memchr.o"
   },
   {
     "arguments": [
@@ -41,6 +43,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -49,9 +52,9 @@
       "ft_libft/ft_split.o",
       "ft_libft/ft_split.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_split.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_split.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_split.c",
+    "output": "/home/lia/libft/ft_libft/ft_split.o"
   },
   {
     "arguments": [
@@ -59,6 +62,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -67,9 +71,9 @@
       "ft_libft/ft_strncmp.o",
       "ft_libft/ft_strncmp.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strncmp.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strncmp.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strncmp.c",
+    "output": "/home/lia/libft/ft_libft/ft_strncmp.o"
   },
   {
     "arguments": [
@@ -77,6 +81,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -85,9 +90,9 @@
       "ft_libft/ft_bzero.o",
       "ft_libft/ft_bzero.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_bzero.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_bzero.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_bzero.c",
+    "output": "/home/lia/libft/ft_libft/ft_bzero.o"
   },
   {
     "arguments": [
@@ -95,6 +100,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -103,9 +109,9 @@
       "ft_libft/ft_memcmp.o",
       "ft_libft/ft_memcmp.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_memcmp.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_memcmp.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_memcmp.c",
+    "output": "/home/lia/libft/ft_libft/ft_memcmp.o"
   },
   {
     "arguments": [
@@ -113,6 +119,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -121,9 +128,9 @@
       "ft_libft/ft_strchr.o",
       "ft_libft/ft_strchr.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strchr.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strchr.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strchr.c",
+    "output": "/home/lia/libft/ft_libft/ft_strchr.o"
   },
   {
     "arguments": [
@@ -131,6 +138,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -139,9 +147,9 @@
       "ft_libft/ft_strnstr.o",
       "ft_libft/ft_strnstr.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strnstr.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strnstr.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strnstr.c",
+    "output": "/home/lia/libft/ft_libft/ft_strnstr.o"
   },
   {
     "arguments": [
@@ -149,6 +157,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -157,9 +166,9 @@
       "ft_libft/ft_calloc.o",
       "ft_libft/ft_calloc.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_calloc.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_calloc.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_calloc.c",
+    "output": "/home/lia/libft/ft_libft/ft_calloc.o"
   },
   {
     "arguments": [
@@ -167,6 +176,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -175,9 +185,9 @@
       "ft_libft/ft_memcpy.o",
       "ft_libft/ft_memcpy.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_memcpy.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_memcpy.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_memcpy.c",
+    "output": "/home/lia/libft/ft_libft/ft_memcpy.o"
   },
   {
     "arguments": [
@@ -185,6 +195,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -193,9 +204,9 @@
       "ft_libft/ft_strdup.o",
       "ft_libft/ft_strdup.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strdup.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strdup.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strdup.c",
+    "output": "/home/lia/libft/ft_libft/ft_strdup.o"
   },
   {
     "arguments": [
@@ -203,6 +214,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -211,9 +223,9 @@
       "ft_libft/ft_strrchr.o",
       "ft_libft/ft_strrchr.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strrchr.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strrchr.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strrchr.c",
+    "output": "/home/lia/libft/ft_libft/ft_strrchr.o"
   },
   {
     "arguments": [
@@ -221,6 +233,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -229,9 +242,9 @@
       "ft_libft/ft_isalnum.o",
       "ft_libft/ft_isalnum.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_isalnum.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_isalnum.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_isalnum.c",
+    "output": "/home/lia/libft/ft_libft/ft_isalnum.o"
   },
   {
     "arguments": [
@@ -239,6 +252,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -247,9 +261,9 @@
       "ft_libft/ft_memmove.o",
       "ft_libft/ft_memmove.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_memmove.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_memmove.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_memmove.c",
+    "output": "/home/lia/libft/ft_libft/ft_memmove.o"
   },
   {
     "arguments": [
@@ -257,6 +271,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -265,9 +280,9 @@
       "ft_libft/ft_striteri.o",
       "ft_libft/ft_striteri.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_striteri.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_striteri.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_striteri.c",
+    "output": "/home/lia/libft/ft_libft/ft_striteri.o"
   },
   {
     "arguments": [
@@ -275,6 +290,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -283,9 +299,9 @@
       "ft_libft/ft_strtrim.o",
       "ft_libft/ft_strtrim.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strtrim.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strtrim.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strtrim.c",
+    "output": "/home/lia/libft/ft_libft/ft_strtrim.o"
   },
   {
     "arguments": [
@@ -293,6 +309,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -301,9 +318,9 @@
       "ft_libft/ft_isalpha.o",
       "ft_libft/ft_isalpha.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_isalpha.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_isalpha.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_isalpha.c",
+    "output": "/home/lia/libft/ft_libft/ft_isalpha.o"
   },
   {
     "arguments": [
@@ -311,6 +328,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -319,9 +337,9 @@
       "ft_libft/ft_memset.o",
       "ft_libft/ft_memset.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_memset.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_memset.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_memset.c",
+    "output": "/home/lia/libft/ft_libft/ft_memset.o"
   },
   {
     "arguments": [
@@ -329,6 +347,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -337,9 +356,9 @@
       "ft_libft/ft_strjoin.o",
       "ft_libft/ft_strjoin.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strjoin.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strjoin.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strjoin.c",
+    "output": "/home/lia/libft/ft_libft/ft_strjoin.o"
   },
   {
     "arguments": [
@@ -347,6 +366,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -355,9 +375,9 @@
       "ft_libft/ft_substr.o",
       "ft_libft/ft_substr.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_substr.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_substr.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_substr.c",
+    "output": "/home/lia/libft/ft_libft/ft_substr.o"
   },
   {
     "arguments": [
@@ -365,6 +385,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -373,9 +394,9 @@
       "ft_libft/ft_isascii.o",
       "ft_libft/ft_isascii.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_isascii.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_isascii.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_isascii.c",
+    "output": "/home/lia/libft/ft_libft/ft_isascii.o"
   },
   {
     "arguments": [
@@ -383,6 +404,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -391,9 +413,9 @@
       "ft_libft/ft_putchar_fd.o",
       "ft_libft/ft_putchar_fd.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_putchar_fd.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_putchar_fd.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_putchar_fd.c",
+    "output": "/home/lia/libft/ft_libft/ft_putchar_fd.o"
   },
   {
     "arguments": [
@@ -401,6 +423,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -409,9 +432,9 @@
       "ft_libft/ft_strlcat.o",
       "ft_libft/ft_strlcat.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strlcat.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strlcat.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strlcat.c",
+    "output": "/home/lia/libft/ft_libft/ft_strlcat.o"
   },
   {
     "arguments": [
@@ -419,6 +442,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -427,9 +451,9 @@
       "ft_libft/ft_tolower.o",
       "ft_libft/ft_tolower.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_tolower.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_tolower.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_tolower.c",
+    "output": "/home/lia/libft/ft_libft/ft_tolower.o"
   },
   {
     "arguments": [
@@ -437,6 +461,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -445,9 +470,9 @@
       "ft_libft/ft_isdigit.o",
       "ft_libft/ft_isdigit.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_isdigit.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_isdigit.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_isdigit.c",
+    "output": "/home/lia/libft/ft_libft/ft_isdigit.o"
   },
   {
     "arguments": [
@@ -455,6 +480,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -463,9 +489,9 @@
       "ft_libft/ft_putendl_fd.o",
       "ft_libft/ft_putendl_fd.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_putendl_fd.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_putendl_fd.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_putendl_fd.c",
+    "output": "/home/lia/libft/ft_libft/ft_putendl_fd.o"
   },
   {
     "arguments": [
@@ -473,6 +499,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -481,9 +508,9 @@
       "ft_libft/ft_strlcpy.o",
       "ft_libft/ft_strlcpy.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strlcpy.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strlcpy.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strlcpy.c",
+    "output": "/home/lia/libft/ft_libft/ft_strlcpy.o"
   },
   {
     "arguments": [
@@ -491,6 +518,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -499,9 +527,9 @@
       "ft_libft/ft_toupper.o",
       "ft_libft/ft_toupper.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_toupper.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_toupper.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_toupper.c",
+    "output": "/home/lia/libft/ft_libft/ft_toupper.o"
   },
   {
     "arguments": [
@@ -509,6 +537,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -517,9 +546,9 @@
       "ft_libft/ft_isprint.o",
       "ft_libft/ft_isprint.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_isprint.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_isprint.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_isprint.c",
+    "output": "/home/lia/libft/ft_libft/ft_isprint.o"
   },
   {
     "arguments": [
@@ -527,6 +556,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -535,9 +565,9 @@
       "ft_libft/ft_putnbr_fd.o",
       "ft_libft/ft_putnbr_fd.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_putnbr_fd.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_putnbr_fd.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_putnbr_fd.c",
+    "output": "/home/lia/libft/ft_libft/ft_putnbr_fd.o"
   },
   {
     "arguments": [
@@ -545,6 +575,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -553,9 +584,9 @@
       "ft_libft/ft_strlen.o",
       "ft_libft/ft_strlen.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strlen.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strlen.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strlen.c",
+    "output": "/home/lia/libft/ft_libft/ft_strlen.o"
   },
   {
     "arguments": [
@@ -563,6 +594,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -571,9 +603,9 @@
       "ft_libft/ft_itoa.o",
       "ft_libft/ft_itoa.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_itoa.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_itoa.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_itoa.c",
+    "output": "/home/lia/libft/ft_libft/ft_itoa.o"
   },
   {
     "arguments": [
@@ -581,6 +613,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -589,9 +622,9 @@
       "ft_libft/ft_putstr_fd.o",
       "ft_libft/ft_putstr_fd.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_putstr_fd.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_putstr_fd.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_putstr_fd.c",
+    "output": "/home/lia/libft/ft_libft/ft_putstr_fd.o"
   },
   {
     "arguments": [
@@ -599,6 +632,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -607,9 +641,9 @@
       "ft_libft/ft_strmapi.o",
       "ft_libft/ft_strmapi.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_libft/ft_strmapi.c",
-    "output": "/home/kaara/42/libft/ft_libft/ft_strmapi.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_libft/ft_strmapi.c",
+    "output": "/home/lia/libft/ft_libft/ft_strmapi.o"
   },
   {
     "arguments": [
@@ -617,6 +651,64 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_insert_at.o",
+      "list/list_int_insert_at.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_insert_at.c",
+    "output": "/home/lia/libft/list/list_int_insert_at.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_pop_at.o",
+      "list/list_int_pop_at.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_pop_at.c",
+    "output": "/home/lia/libft/list/list_int_pop_at.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_pop_back.o",
+      "list/list_int_pop_back.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_pop_back.c",
+    "output": "/home/lia/libft/list/list_int_pop_back.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -625,9 +717,9 @@
       "list/list_int_pop.o",
       "list/list_int_pop.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/list/list_int_pop.c",
-    "output": "/home/kaara/42/libft/list/list_int_pop.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_pop.c",
+    "output": "/home/lia/libft/list/list_int_pop.o"
   },
   {
     "arguments": [
@@ -635,6 +727,26 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_print.o",
+      "list/list_int_print.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_print.c",
+    "output": "/home/lia/libft/list/list_int_print.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -643,9 +755,9 @@
       "list/list_int_push.o",
       "list/list_int_push.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/list/list_int_push.c",
-    "output": "/home/kaara/42/libft/list/list_int_push.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_push.c",
+    "output": "/home/lia/libft/list/list_int_push.o"
   },
   {
     "arguments": [
@@ -653,17 +765,18 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
       "-c",
       "-o",
-      "list/list_print.o",
-      "list/list_print.c"
+      "list/list_int_rev_rotate.o",
+      "list/list_int_rev_rotate.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/list/list_print.c",
-    "output": "/home/kaara/42/libft/list/list_print.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_rev_rotate.c",
+    "output": "/home/lia/libft/list/list_int_rev_rotate.o"
   },
   {
     "arguments": [
@@ -671,6 +784,64 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_rotate.o",
+      "list/list_int_rotate.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_rotate.c",
+    "output": "/home/lia/libft/list/list_int_rotate.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_clone.o",
+      "list/list_int_clone.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_clone.c",
+    "output": "/home/lia/libft/list/list_int_clone.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_access_at.o",
+      "list/list_int_access_at.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_access_at.c",
+    "output": "/home/lia/libft/list/list_int_access_at.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -679,9 +850,9 @@
       "list/list_void_clear.o",
       "list/list_void_clear.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/list/list_void_clear.c",
-    "output": "/home/kaara/42/libft/list/list_void_clear.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_void_clear.c",
+    "output": "/home/lia/libft/list/list_void_clear.o"
   },
   {
     "arguments": [
@@ -689,6 +860,45 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_sort.o",
+      "list/list_int_sort.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_sort.c",
+    "output": "/home/lia/libft/list/list_int_sort.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "-o",
+      "list/list_int_count.o",
+      "list/list_int_count.c"
+    ],
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/list/list_int_count.c",
+    "output": "/home/lia/libft/list/list_int_count.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I",
+      "include",
+      "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -697,9 +907,9 @@
       "ft_printf/handle_format.o",
       "ft_printf/handle_format.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_printf/handle_format.c",
-    "output": "/home/kaara/42/libft/ft_printf/handle_format.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_printf/handle_format.c",
+    "output": "/home/lia/libft/ft_printf/handle_format.o"
   },
   {
     "arguments": [
@@ -707,6 +917,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -715,9 +926,9 @@
       "ft_printf/hex_handle_format2.o",
       "ft_printf/hex_handle_format2.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_printf/hex_handle_format2.c",
-    "output": "/home/kaara/42/libft/ft_printf/hex_handle_format2.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_printf/hex_handle_format2.c",
+    "output": "/home/lia/libft/ft_printf/hex_handle_format2.o"
   },
   {
     "arguments": [
@@ -725,6 +936,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -733,9 +945,9 @@
       "ft_printf/libftprintf.o",
       "ft_printf/libftprintf.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/ft_printf/libftprintf.c",
-    "output": "/home/kaara/42/libft/ft_printf/libftprintf.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/ft_printf/libftprintf.c",
+    "output": "/home/lia/libft/ft_printf/libftprintf.o"
   },
   {
     "arguments": [
@@ -743,6 +955,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -751,9 +964,9 @@
       "gnl/get_next_line.o",
       "gnl/get_next_line.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/gnl/get_next_line.c",
-    "output": "/home/kaara/42/libft/gnl/get_next_line.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/gnl/get_next_line.c",
+    "output": "/home/lia/libft/gnl/get_next_line.o"
   },
   {
     "arguments": [
@@ -761,6 +974,7 @@
       "-I",
       "include",
       "-g",
+      "-Iinclude",
       "-Wall",
       "-Wextra",
       "-Werror",
@@ -769,8 +983,8 @@
       "gnl/get_next_line_utils.o",
       "gnl/get_next_line_utils.c"
     ],
-    "directory": "/home/kaara/42/libft",
-    "file": "/home/kaara/42/libft/gnl/get_next_line_utils.c",
-    "output": "/home/kaara/42/libft/gnl/get_next_line_utils.o"
+    "directory": "/home/lia/libft",
+    "file": "/home/lia/libft/gnl/get_next_line_utils.c",
+    "output": "/home/lia/libft/gnl/get_next_line_utils.o"
   }
 ]

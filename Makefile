@@ -58,8 +58,10 @@ LIST_SRC = \
 	list/list_int_rev_rotate.c\
 	list/list_int_rotate.c\
 	list/list_int_clone.c\
-	list/list_int_sort.c\
+	list/list_int_access_at.c\
 	list/list_void_clear.c\
+	list/list_int_sort.c\
+	list/list_int_count.c\
 
 FT_PRINTF_SRC = \
 	ft_printf/handle_format.c\

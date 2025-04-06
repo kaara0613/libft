@@ -23,7 +23,7 @@ void    list_int_print(t_list *list)
 	head = list;
 	if (head == NULL)
 		return ;
-	while (head->next != NULL)
+	while (head != NULL)
 	{
 		ft_printf("%d : ", i);
 		i++;
