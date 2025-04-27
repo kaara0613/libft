@@ -6,7 +6,7 @@
 /*   By: kaara <kaara@student.42.jp>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/22 14:59:08 by kaara             #+#    #+#             */
-/*   Updated: 2025/04/26 10:33:08 by kaara            ###   ########.fr       */
+/*   Updated: 2025/04/27 15:45:38 by kaara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 static void	ft_putnbr_fd(int n, int fd);
 
-int	print_c(int c)
+int	d_print_c(int c)
 {
 	write(2, &c, 1);
 	return (1);
@@ -62,7 +62,7 @@ int	d_print_u(unsigned int u)
 	return (temp);
 }
 
-int	d_rint_d_i(int di)
+int	d_print_d_i(int di)
 {
 	int	count;
 	int	di_temp;
